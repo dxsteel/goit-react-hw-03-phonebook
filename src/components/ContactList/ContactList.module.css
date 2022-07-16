@@ -1,12 +1,9 @@
-.item {
-    color: beige;
-    margin-left: 20px;
-    margin-bottom: 25px;
-}
-
-.position {
-    display: flex;
-    justify-content: flex-end;
+.contactItem {
+color: beige;
+margin-bottom: 20px;
+margin-left: 20px;
+display: flex;
+flex-direction: column;
 }
 
 .button {

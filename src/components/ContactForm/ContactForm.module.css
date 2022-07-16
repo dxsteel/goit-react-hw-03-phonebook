@@ -8,6 +8,7 @@
 
 .label {
     margin-bottom: 10px;
+   color: yellow;
 }
 
 .title {
@@ -19,7 +20,9 @@
     background: inherit;
     border: 1px solid tomato;
     min-height: 25px;
+    color: beige;
 }
+
 
 .button {
     margin-top: 10px;

@@ -3,16 +3,15 @@ import styles from './ContactList.module.css';
 
 const ContactList = ({ filterContacts, deleteContact }) => {
   return (
-    <div className={styles.item}>
+    <div className={styles.contactItem}>
       {filterContacts.map(({ id, number, name }) => {
         return (
           <li key={id}>
-            {name}: {number}
-            <div className={styles.position}>
+              {name}: {number}
             <button className={styles.button} onClick={() => deleteContact(id)}>
               Delete
               </button>
-              </div>
+            
           </li>
         );
       })}
